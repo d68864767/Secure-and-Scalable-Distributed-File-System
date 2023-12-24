@@ -1,0 +1,39 @@
+{
+  "name": "secure-scalable-distributed-file-system",
+  "version": "1.0.0",
+  "description": "A secure and scalable distributed file system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/secure-scalable-distributed-file-system.git"
+  },
+  "keywords": [
+    "distributed",
+    "file",
+    "system",
+    "secure",
+    "scalable"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yourusername/secure-scalable-distributed-file-system/issues"
+  },
+  "homepage": "https://github.com/yourusername/secure-scalable-distributed-file-system#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^14.15.1",
+    "cassandra-driver": "^4.6.3",
+    "redis": "^3.1.2",
+    "https": "^1.0.0",
+    "tls": "^0.0.1",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
